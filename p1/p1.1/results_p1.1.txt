@@ -1,0 +1,29 @@
+┌──(root㉿kali)-[/home/kali/Desktop/lab2_auts/p1]
+└─# python p1.1.py
+2024-12-16 14:42:12,918 - INFO: Starting gateway discovery for upm.es
+2024-12-16 14:42:43,068 - INFO: System Traceroute to upm.es: 2 hops detected
+
+--- Gateway Discovery Results ---
+[
+  {
+    "ip": "10.0.2.2",
+    "hostname": "Unknown",
+    "response_time": 0.059441328048706055,
+    "is_private": true,
+    "is_reserved": false
+  },
+  {
+    "ip": "192.168.1.1",
+    "hostname": "Unknown",
+    "response_time": 0.0455324649810791,
+    "is_private": true,
+    "is_reserved": false
+  },
+  {
+    "ip": "192.168.144.1",
+    "hostname": "Unknown",
+    "response_time": 0.029338836669921875,
+    "is_private": true,
+    "is_reserved": false
+  }
+]
